@@ -130,7 +130,7 @@ catch (DivideByZeroException ex)
 
 
 # 7.1. Explique o que é Programação Orientada a Objetos (POO) e sua importância em C#.
-A Programação Orientada a Objetos (POO) é um paradigma de programação que se baseia na ideia de 'objetos' que podem conter dados na forma de campos (também conhecidos como atributos) e procedimentos na forma de funções (métodos). Em C#, a POO permite a criação de código modular, reutilizável e mais fácil de manter, facilitando a organização e o desenvolvimento de sistemas complexos.
+A Programação Orientada a Objetos é um paradigma de programação que se baseia na ideia de 'objetos' que podem conter dados na forma de atributos e métodos. Em C#, a POO permite a criação de código modular, reutilizável e mais fácil de manter, facilitando a organização e o desenvolvimento de sistemas complexos.
 
 # 7.2. Quais são os pilares da POO? Descreva cada um brevemente.
 Os pilares da POO são:
@@ -141,7 +141,7 @@ Os pilares da POO são:
 - Polimorfismo: é a capacidade de um objeto poder ser tratado como se fosse de um tipo diferente. Isso permite que um mesmo método tenha diferentes implementações, dependendo do tipo do objeto que o invoca.
 
 # 7.3. Dê um exemplo prático de como um objeto é criado em C#.
-lass Carro
+Class Carro
 {
     public string Marca;
     public string Modelo;
@@ -164,7 +164,7 @@ meuCarro.MostrarDetalhes();'
 
 
 # 8.1. Por que o encapsulamento é considerado importante na Programação Orientada a Objetos?
-O encapsulamento é considerado importante na Programação Orientada a Objetos porque ajuda a proteger a integridade dos dados de uma classe, controlando o acesso a eles. Isso significa que os dados internos de um objeto não podem ser modificados por código externo sem as devidas permissões. O encapsulamento promove a segurança, modularidade e manutenibilidade do código.
+O encapsulamento é considerado importante em POO porque ajuda a proteger a integridade dos dados de uma classe, controlando o acesso a eles. Dessa forma os dados internos de um objeto não podem ser modificados por código externo sem as devidas permissões. O encapsulamento promove a segurança, modularidade e manutenibilidade do código.
 
 # 8.2. Explique a função dos construtores e destrutores em uma classe C#.
 Os construtores são métodos especiais utilizados para inicializar uma instância de uma classe. Eles são invocados automaticamente quando um objeto é criado. Os construtores podem ser usados para definir o estado inicial de um objeto e realizar inicializações necessárias. 
@@ -190,7 +190,7 @@ A herança em C# é um conceito que permite que uma classe herde os membros (cam
 
 # 9.2. Explique o conceito de polimorfismo e forneça um exemplo prático.
 
-O polimorfismo em C# é a capacidade de um objeto se comportar de maneiras diferentes com base no contexto em que é usado. O polimorfismo permite que um método tenha várias implementações com base nos tipos de parâmetros ou na classe do objeto que o invoca. Um exemplo prático de polimorfismo é o método 'ToString()', que pode ser implementado de maneira diferente em diferentes classes para retornar uma representação de string do objeto.
+O polimorfismo em C# é a capacidade de um objeto se comportar de maneiras diferentes com base no contexto em que é usado. O polimorfismo permite que um método tenha várias implementações com base nos tipos de parâmetros ou na classe do objeto que o invoca. Um exemplo de polimorfismo é o método 'ToString()', que pode ser implementado de maneira diferente em diferentes classes para retornar uma representação de string do objeto.
 
 # 9.3. Quais são as vantagens da herança e do polimorfismo na programação orientada a objetos?
 
